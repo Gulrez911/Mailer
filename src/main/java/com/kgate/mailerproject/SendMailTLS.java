@@ -36,8 +36,8 @@ public class SendMailTLS {
             message.setFrom(new InternetAddress("gulfarooqui1@gmail.com"));
             message.setRecipients(Message.RecipientType.TO,
                     InternetAddress.parse("gulfarooqui09@gmail.com"));
-            message.setSubject("Testing Subject");
-            message.setText("Dear Mail Crawler,"
+            message.setSubject("Check mailing service");
+            message.setText("This is testing message,"
                     + "\n\n No spam to my email, please!");
 
             Transport.send(message);
